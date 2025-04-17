@@ -1,6 +1,7 @@
-<h2>List of Machine Coding Questions with Test cases using Vitest and Playwright for automated test cases</h2>
-
+<h2>List of Machine Coding Questions with Test cases using Vitest and Playwright for automated test cases and Tailwind for UI design</h2>
+<br />
 <ol>Machine Coding Questions List
+<br />
 <li>Progress Bar (Pending...) </li> 
 <li>File Explorer (Pending...) </li>
 <li>OTP input using UseRef (Pending...)</li>
