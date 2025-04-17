@@ -27,6 +27,13 @@ To run the dev server for your app, use:
 npx nx serve progressbar
 ```
 
+or
+Install nx globally and
+
+```sh
+nx run progressbar:dev
+```
+
 To create a production bundle:
 
 ```sh
