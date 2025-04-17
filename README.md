@@ -1,4 +1,4 @@
-<h2>List of Machine Coding Questions with Test cases using Vitest and Playwright for automated test cases and Tailwind for UI design</h2>
+<h2>List of Machine Coding Questions using React + Typescript with Test cases using Vitest and Playwright for automated test cases and Tailwind for UI design</h2>
 <br />
 <ol>
 <li>Progress Bar (Pending...) </li> 
