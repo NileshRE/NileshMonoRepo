@@ -1,50 +1,18 @@
-import NxWelcome from './nx-welcome';
-
-import { Route, Routes, Link } from 'react-router-dom';
+import ProgressBar from './ProgressBar';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="progressbar" />
-
-      {/* START: routes */}
-      {/* These routes and navigation have been generated for you */}
-      {/* Feel free to move and update them to fit your needs */}
-      <br />
-      <hr />
-      <br />
-      <div role="navigation">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/page-2">Page 2</Link>
-          </li>
-        </ul>
+    <div className="p-24 bg-slate-100">
+      <h1 className="font-semibold text-4xl mb-8">Progress Bars</h1>
+      <div className="flex flex-col gap-4">
+        {barsWidth.map((width) => (
+          <ProgressBar width={width} />
+        ))}
       </div>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div>
-              This is the generated root route.{' '}
-              <Link to="/page-2">Click here for page 2.</Link>
-            </div>
-          }
-        />
-        <Route
-          path="/page-2"
-          element={
-            <div>
-              <Link to="/">Click here to go back to root page.</Link>
-            </div>
-          }
-        />
-      </Routes>
-      {/* END: routes */}
     </div>
   );
 }
 
 export default App;
+
+const barsWidth = [5, 15, 20, 64, 98];

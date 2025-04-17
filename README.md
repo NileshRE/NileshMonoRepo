@@ -1,7 +1,7 @@
 <h2>List of Machine Coding Questions with Test cases using Vitest and Playwright for automated test cases</h2>
 
 <ol>Machine Coding Questions List
-<li>Progress Bar (Pending...) </li> 
+<li>Progress Bar </li> 
 <li>File Explorer (Pending...) </li>
 <li>OTP input using UseRef (Pending...)</li>
 <li>Drag and Drop (Pending...) </li>
