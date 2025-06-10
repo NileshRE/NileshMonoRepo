@@ -11,6 +11,13 @@
 <li>Nested Comments and Reply (Pending...) </li>
 </ol>
 
+<h3>Deployed Features</h2>
+<ol>
+<li>React virtualization for large data in Table and operations like selecting multiple on basis of conditions (Pending...) </li>
+<li>Generating pdf through buffer data and rendering in book style (Pending...) </li>
+<li>Build a resume AI assistant (Pending...) </li>
+</ol>
+
 #
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
