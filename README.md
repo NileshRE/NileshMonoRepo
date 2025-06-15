@@ -2,7 +2,7 @@
 <h3>Practice</h3>
 <ol>
 <li>Progress Bar </li> 
-<li>File Explorer (Pending...) </li>
+<li>File Explorer (Pending test cases..) </li>
 <li>OTP input using UseRef (Pending...)</li>
 <li>Drag and Drop (Pending...) </li>
 <li>Dynamic Pagination (Pending...) </li>
