@@ -16,6 +16,12 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "paths": {
+      "@mylib/hooks": ["./libs/hooks/src/index.ts"],
+      "@mylib/schemas": ["./libs/schemas/src/index.ts"],
+      "@mylib/ui": ["./libs/ui/src/index.ts"],
+      "@mylib/utils": ["./libs/hooks/src/index.ts"]
+    }
   }
 }
