@@ -1,0 +1,11 @@
+{
+  "name": "fileexplorer",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react-file-icon": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react-file-icon": "^1.0.4"
+  }
+}
