@@ -2,7 +2,11 @@
   "name": "source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:progressbar": "npx nx serve progresbar",
+    "dev:fileexplorer": "npx nx serve fileexplorer",
+    "dev:otpinput": "npx nx serve otpInput"
+  },
   "private": true,
   "dependencies": {
     "lucide-react": "^0.515.0",
@@ -68,6 +72,7 @@
   },
   "workspaces": [
     "apps/*",
-    "libs/*"
+    "libs/*",
+    "libs/ui/**"
   ]
 }

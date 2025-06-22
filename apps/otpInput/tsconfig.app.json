@@ -12,7 +12,7 @@
       "@nx/react/typings/image.d.ts",
       "vite/client"
     ],
-    "rootDir": "src"
+    "rootDir": "../../"
   },
   "exclude": [
     "out-tsc",
@@ -30,5 +30,16 @@
     "eslint.config.cjs",
     "eslint.config.mjs"
   ],
-  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"]
+  "include": [
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "../../libs/ui"
+  ],
+  "references": [
+    {
+      "path": "../../libs/ui/tsconfig.lib.json"
+    }
+  ]
 }
