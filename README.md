@@ -4,10 +4,11 @@
 <li>Progress Bar </li> 
 <li>File Explorer (Pending test cases..) </li>
 <li>OTP input using UseRef (Pending...)</li>
-<li>Drag and Drop (Pending...) </li>
+<li>To do list (Pending...)</li>
+<li>Tabs (Pending...) </li>
 <li>Dynamic Pagination (Pending...) </li>
 <li>AutoComplete Search Bar (Pending...) </li>
-<li>Tabs (Pending...) </li>
+<li>Drag and Drop (Pending...) </li>
 <li>Nested Comments and Reply (Pending...) </li>
 </ol>
 
