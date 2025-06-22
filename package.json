@@ -5,7 +5,8 @@
   "scripts": {
     "dev:progressbar": "npx nx serve progresbar",
     "dev:fileexplorer": "npx nx serve fileexplorer",
-    "dev:otpinput": "npx nx serve otpInput"
+    "dev:otpinput": "npx nx serve otpInput",
+    "test:otpinput": "npx nx test otpInput"
   },
   "private": true,
   "dependencies": {

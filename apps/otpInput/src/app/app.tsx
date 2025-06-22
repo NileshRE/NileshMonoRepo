@@ -1,9 +1,9 @@
-import { Button } from '@libs/ui';
+import OtpInput from './otpInput';
 
 export function App() {
   return (
     <div>
-      <Button />
+      <OtpInput />
     </div>
   );
 }

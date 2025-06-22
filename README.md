@@ -1,9 +1,9 @@
 <h2>List of Machine Coding Questions with Test cases using Vitest and Playwright for automated test cases</h2>
 <h3>Practice</h3>
 <ol>
-<li>Progress Bar </li> 
-<li>File Explorer (Pending test cases..) </li>
-<li>OTP input using UseRef (Pending...)</li>
+<li>Progress Bar</li> 
+<li>File Explorer (Test Cases Pending...)</li>
+<li>OTP input using UseRef (Test Cases Pending...)</li>
 <li>To do list (Pending...)</li>
 <li>Tabs (Pending...) </li>
 <li>Dynamic Pagination (Pending...) </li>

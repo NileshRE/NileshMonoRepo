@@ -14,6 +14,7 @@ import { getFileExtension } from '../utils/functions';
 import { useFileHandler } from '../hooks/useFileHandler';
 import { fileStrSchema } from '../schema';
 import { useState } from 'react';
+import { Heading } from '@libs/ui';
 
 const FileExplorer = () => {
   const {
@@ -31,9 +32,7 @@ const FileExplorer = () => {
   } = useFileHandler();
   return (
     <div className="h-screen">
-      <h1 className="text-white font-semibold text-center text-3xl py-4 bg-gray-800 border-b border-gray-600">
-        File Explorer
-      </h1>
+      <Heading heading="File Explorer" />
       <div className="flex flex-col md:grid md:grid-cols-12 h-full">
         <div className="col-span-4 p-3 bg-gray-800 box-border">
           <h2 className="text-xl font-medium text-white mb-4 text-left">
